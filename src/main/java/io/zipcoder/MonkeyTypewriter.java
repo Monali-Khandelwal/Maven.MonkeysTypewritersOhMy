@@ -29,7 +29,7 @@ public class MonkeyTypewriter {
         UnsafeCopier unsafe = new UnsafeCopier(introduction);
         SafeCopier safe = new SafeCopier(introduction);
         List<Thread> safemonkey = new ArrayList<>();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 15; i++) {
             safemonkey.add(new Thread(unsafe));
         }
 
